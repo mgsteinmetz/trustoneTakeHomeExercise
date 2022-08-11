@@ -49,7 +49,7 @@ function App() {
               <Card.Body className="card-body">
                   <Form>
                     <Form.Group>
-                      <Form.Label>Please Enter a County PIN</Form.Label>
+                      <Form.Label>Please Enter County PIN, Street Number, or Street Name</Form.Label>
                       <Form.Control
                         onChange={ e => {setCountyPin(e.target.value); setStreetNum(e.target.value); setStreetName(e.target.value);  setStreetType(e.target.value)} }
                         className="form-input"
