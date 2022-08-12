@@ -1,45 +1,70 @@
-# TruStone Software Engineer Interview Takehome Activity
+# Getting Started with Create React App
 
-## Requirements
-I would like you to build a simple web application that does the following:
-- Presents a form to the user to enter in a County PIN (property identification number);
-- On submission the form should initiate a query to the metro regional parcel API (see below);
-- Once the data is returned from the metro regional parcel API, it should display the following to the user:
-  - Owner Name
-  - Address of the Property (including full street, city, state and zip)
-  - County Name
-  - Estimated Property Value
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-### Optional
-- Allow the user to search by street number and street name
-- Return a list when there are multiple responses with the ability to redirect to a page to display
+In the project directory, you can run:
 
-## On Completion
+### `npm start`
 
-Please create a GitHub repository and commit the project to that repository.  Email me the location of the repository.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Additional Notes/Considerations
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-This activity is centered mainly around the ability to transform data and work with APIs.  As such I am looking more for functionality than flash.  No need to agonize over small details on the front end.
+### `npm test`
 
-While I personally am most familiar with Javascript and Python, this is a framework and language agnostic activity - feel free to use what suits you best.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Metro Regional Parcel API
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-API Base URL: https://arcgis.metc.state.mn.us/server/rest/services/GISLibrary/VWParcelsPoints/FeatureServer/0
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-API Metadata: https://resources.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metrogis/plan_regional_parcels/metadata/metadata.html
+### `npm run eject`
 
-Base API endpoint (there is a GUI you can test queries with): https://arcgis.metc.state.mn.us/server/rest/services/GISLibrary/VWParcelsPoints/FeatureServer/0/query
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-API Technical Documentation: https://arcgis.metc.state.mn.us/server/sdk/rest/index.html#/Query_Feature_Service_Layer/02ss0000002r000000/
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Sample query (where the street number is 1104 and the county is Hennepin): https://arcgis.metc.state.mn.us/server/rest/services/GISLibrary/VWParcelsPoints/FeatureServer/0/query?where=ANUMBER%3D1104+AND+CO_NAME%3D%27Hennepin%27&outFields=*&returnGeometry=false&f=pjson
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Sample property identification number (for testing):
-- 1202924330056
-- 323123440017
-- 112823320034
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
