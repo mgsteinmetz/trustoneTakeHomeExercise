@@ -24,3 +24,20 @@ https://arcgis.metc.state.mn.us/server/sdk/rest/index.html#/Query_Feature_Servic
 # My App in Action
 
 Below I have included a few screen captures to show the UI of the application and how it functions.
+
+Here you can see the static state of my application:
+
+![Screen Shot 2022-08-13 at 12 13 03 AM](https://user-images.githubusercontent.com/77464741/184470042-57f6629d-8c41-478c-8b7f-772a5c562fb5.png)
+
+Here you can see when a user searched with a County PIN, the app will return desired property:
+
+![Screen Shot 2022-08-13 at 12 16 49 AM](https://user-images.githubusercontent.com/77464741/184470070-e3b85940-28a1-4ad1-bb7d-794c846bcb92.png)
+
+
+Here is showing my app when a user searches using a street number, and returning all properties in the Metro area with that exact street number:
+
+![Screen Shot 2022-08-13 at 12 18 05 AM](https://user-images.githubusercontent.com/77464741/184470109-504f41f6-163e-43cd-89b0-0eecf8454aed.png)
+
+Finally this is showing all the outputs when a user searches using a street name:
+
+![Screen Shot 2022-08-13 at 12 21 00 AM](https://user-images.githubusercontent.com/77464741/184470132-c9db0956-9539-4195-ba8f-d48232155750.png)
